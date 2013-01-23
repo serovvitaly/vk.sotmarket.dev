@@ -1,0 +1,118 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-01-23 13:26:38 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: content ~ APPPATH\views\_layout\admin.php [ 9 ] in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php:9
+2013-01-23 13:26:38 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php(9): Kohana_Core::error_handler(8, 'Undefined varia...', 'D:\OPENSERVER\h...', 9, Array)
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#10 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php:9
+2013-01-23 13:28:11 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: content ~ APPPATH\views\_layout\admin.php [ 9 ] in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php:9
+2013-01-23 13:28:11 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php(9): Kohana_Core::error_handler(8, 'Undefined varia...', 'D:\OPENSERVER\h...', 9, Array)
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#10 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php:9
+2013-01-23 14:03:25 --- CRITICAL: View_Exception [ 0 ]: The requested view admin/index could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php:137
+2013-01-23 14:03:25 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(137): Kohana_View->set_filename('admin/index')
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(30): Kohana_View->__construct('admin/index', NULL)
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\application\classes\Controller\Layout.php(22): Kohana_View::factory('admin/index')
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(87): Controller_Layout->after()
+#4 [internal function]: Kohana_Controller->execute()
+#5 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#9 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php:137
+2013-01-23 14:30:03 --- CRITICAL: View_Exception [ 0 ]: The requested view admin/prod_list could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php:137
+2013-01-23 14:30:03 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(137): Kohana_View->set_filename('admin/prod_list')
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(30): Kohana_View->__construct('admin/prod_list', NULL)
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\application\classes\Controller\Layout.php(26): Kohana_View::factory('admin/prod_list')
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(87): Controller_Layout->after()
+#4 [internal function]: Kohana_Controller->execute()
+#5 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#9 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php:137
+2013-01-23 15:16:36 --- CRITICAL: ErrorException [ 1 ]: Class 'ORM' not found ~ APPPATH\classes\Controller\Admin.php [ 15 ] in :
+2013-01-23 15:16:36 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2013-01-23 15:41:24 --- CRITICAL: Kohana_Exception [ 0 ]: The image property does not exist in the Model_Product class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in D:\OPENSERVER\html\vk.sotmarket.dev\modules\orm\classes\Kohana\ORM.php:600
+2013-01-23 15:41:24 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('image')
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\admin\prod_list.php(33): Kohana_ORM->__get('image')
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#4 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(228): Kohana_View->render()
+#5 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php(21): Kohana_View->__toString()
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#9 D:\OPENSERVER\html\vk.sotmarket.dev\application\classes\Controller\Layout.php(32): Kohana_Controller_Template->after()
+#10 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(87): Controller_Layout->after()
+#11 [internal function]: Kohana_Controller->execute()
+#12 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#13 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#14 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#15 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#16 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\modules\orm\classes\Kohana\ORM.php:600
+2013-01-23 16:41:49 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: page ~ APPPATH\views\admin\prod_list.php [ 30 ] in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\admin\prod_list.php:30
+2013-01-23 16:41:49 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\admin\prod_list.php(30): Kohana_Core::error_handler(8, 'Undefined varia...', 'D:\OPENSERVER\h...', 30, Array)
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php(21): Kohana_View->__toString()
+#5 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\application\classes\Controller\Layout.php(32): Kohana_Controller_Template->after()
+#9 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(87): Controller_Layout->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#12 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#14 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#15 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\admin\prod_list.php:30
+2013-01-23 16:43:09 --- CRITICAL: ErrorException [ 8 ]: Object of class Request could not be converted to int ~ APPPATH\views\admin\prod_list.php [ 30 ] in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\admin\prod_list.php:30
+2013-01-23 16:43:09 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\admin\prod_list.php(30): Kohana_Core::error_handler(8, 'Object of class...', 'D:\OPENSERVER\h...', 30, Array)
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 D:\OPENSERVER\html\vk.sotmarket.dev\application\views\_layout\admin.php(21): Kohana_View->__toString()
+#5 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(61): include('D:\OPENSERVER\h...')
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\View.php(348): Kohana_View::capture('D:\OPENSERVER\h...', Array)
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\application\classes\Controller\Layout.php(32): Kohana_Controller_Template->after()
+#9 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(87): Controller_Layout->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#12 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#14 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#15 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\application\views\admin\prod_list.php:30
+2013-01-23 16:55:05 --- CRITICAL: ErrorException [ 1 ]: Call to undefined method Model_Product::price() ~ APPPATH\views\admin\prod_list.php [ 63 ] in :
+2013-01-23 16:55:05 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2013-01-23 17:04:07 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20' at line 1 [ SELECT `bk_product`.`id` AS `id`, `bk_product`.`name` AS `name`, `bk_product`.`vendor` AS `vendor`, `bk_product`.`description` AS `description`, `bk_product`.`barcode` AS `barcode`, `bk_product`.`currencyId` AS `currencyId`, `bk_product`.`price` AS `price`, `bk_product`.`delivery` AS `delivery`, `bk_product`.`categoryId` AS `categoryId`, `bk_product`.`url` AS `url`, `bk_product`.`picture` AS `picture`, `bk_product`.`last_update` AS `last_update`, `bk_product`.`created` AS `created` FROM `bk_products` AS `bk_product` LIMIT 20 OFFSET -20 ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in D:\OPENSERVER\html\vk.sotmarket.dev\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-23 17:04:07 --- DEBUG: #0 D:\OPENSERVER\html\vk.sotmarket.dev\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT `bk_prod...', 'Model_Product', Array)
+#1 D:\OPENSERVER\html\vk.sotmarket.dev\modules\orm\classes\Kohana\ORM.php(1060): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 D:\OPENSERVER\html\vk.sotmarket.dev\modules\orm\classes\Kohana\ORM.php(1001): Kohana_ORM->_load_result(true)
+#3 D:\OPENSERVER\html\vk.sotmarket.dev\application\classes\Controller\Admin.php(28): Kohana_ORM->find_all()
+#4 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Controller.php(84): Controller_Admin->action_prod_list()
+#5 [internal function]: Kohana_Controller->execute()
+#6 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin))
+#7 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 D:\OPENSERVER\html\vk.sotmarket.dev\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 D:\OPENSERVER\html\vk.sotmarket.dev\www\index.php(118): Kohana_Request->execute()
+#10 {main} in D:\OPENSERVER\html\vk.sotmarket.dev\modules\database\classes\Kohana\Database\Query.php:251
