@@ -1,3 +1,24 @@
 html{
     background: none;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+.header{
+    height: 100px;
+    background: #FFFFFF;
+    opacity: 0.3;
+}
+ 
+.slide-content{
+    width: 800px;
+    height: 400px;
+    font-size: 200px;
+    color: #FFF;
+    text-align: center;
+    line-height: 388px;
+}
